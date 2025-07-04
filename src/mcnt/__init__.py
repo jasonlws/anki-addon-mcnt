@@ -30,7 +30,6 @@ def create_note_type(col: Collection) -> dict[str, Any]:
     model["sortf"] = 0
 
     # Add Fields
-    col.models.add_field(model, col.models.new_field("number"))
     col.models.add_field(model, col.models.new_field("question"))
     col.models.add_field(model, col.models.new_field("a"))
     col.models.add_field(model, col.models.new_field("b"))
